@@ -16,18 +16,19 @@ header  {
     flex-wrap: wrap;
     gap: 5px;
     background-color:  #1f2937;
-    padding: 10px;
+    padding: 10px 10px 10px 20px;
 }
 .logo   {
     font-size: 24px;
     font-weight: bold;
     color: #f9faf8;
-    padding: 0px 10px;
+
 }
 .menu-button:link , .menu-button:visited    {
     font-size: 18px;
     color: #e5e7eb;
     padding: 10px;
+    word-break: keep-all;
 
 }
 .menu-button:hover  {
@@ -134,6 +135,43 @@ header  {
 }
 .section-3-cite {
     font-size: 18px;
+    font-weight: bold;
     align-self: flex-end;
     margin-right: 120px;
 }/*Section 3 Finish Here // Section 4 Start Here*/ /*Section 3 Finish Here // Section 4 Start Here*/
+.section-4  {
+    background-color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 180px;
+    padding: 0px 15px;
+}
+.section-4-blue-container   {
+    background-color: #3882f6;
+    max-width: 90%;
+    color:#f9faf8;
+    border-radius: 10px;
+    min-height: 102px;
+    padding: 18px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-4-blue-container-left-side {
+
+}
+.section-4-blue-container-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+.section-4-blue-container-p     {
+    font-weight: 18px;
+    max-width: 70%;
+}
+.section-4-blue-container-contact-button    {
+    padding: 6px 14px;
+    border: 1px solid #f9faf8;
+    border-radius: 5px;
+    color: #f9faf8;
+}/*Section 4 Finish Here // Section 5 Start Here*/ /*Section 4 Finish Here // Footer Start Here*/
