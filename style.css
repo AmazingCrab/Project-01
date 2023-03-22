@@ -116,4 +116,24 @@ header  {
 }
 .image-container > p    {
     width: 200px;
+}/*Section 2 Finish Here // Section 3 Start Here*/ /*Section 2 Finish Here // Section 3 Start Here*/
+.section-3  {
+    background-color:#e5e7eb;
+    color: #1f2937;
+    padding: 28px 20px;
 }
+.section-3-container    {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 18px;
+    align-items: center;
+}
+.section-3-quote {
+    font-size: 24px;
+}
+.section-3-cite {
+    font-size: 18px;
+    align-self: flex-end;
+    margin-right: 120px;
+}/*Section 3 Finish Here // Section 4 Start Here*/ /*Section 3 Finish Here // Section 4 Start Here*/
