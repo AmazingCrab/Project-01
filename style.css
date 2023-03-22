@@ -9,7 +9,7 @@ body    {
     padding: 0 10%;
     background-color: #000000;
 }
-header , footer , section   {
+header , footer , section   { /*This set the max-width and prevent resize for padding*/
     max-width: 1524px;
     box-sizing: border-box;
 }
@@ -46,11 +46,11 @@ header  {
     display: flex;
     justify-content: center;
 } /*Header Finish Here*/ /*Section 1 Start here*/ /*Header Finish Here*/ /*Section 1 Start here*/
-.section-1  {
+.section-1-aux-container  {
     padding: 0 10px;
     min-height: 320px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     background-color:  #1f2937;
@@ -62,7 +62,6 @@ header  {
     gap: 16px;
     padding: 10px;
     min-width: 30%;
-
 }
 
 .section-1-left-container > h1  {
@@ -84,6 +83,7 @@ header  {
 .section-1-right-image  {
     overflow: hidden;
     padding: 10px 10px 20px 10px;
+    max-width: 350px;
 } /*Section 1 Finish Here *//* Section 2 Start Here*/ /*Section 1 Finish Here *//* Section 2 Start Here*/
 .section-2  {
     background-color: #f9faf8;
@@ -104,7 +104,7 @@ header  {
 .section-2-image-big-container  {
     display: flex;
     justify-content: center;
-    gap: 18px;
+    gap: 48px;
     align-items: flex-start;
     flex-wrap: wrap;
 }
@@ -127,6 +127,10 @@ header  {
     background-color:#e5e7eb;
     color: #1f2937;
     padding: 28px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 180px;
 }
 .section-3-container    {
     display: flex;
@@ -134,6 +138,7 @@ header  {
     justify-content: center;
     gap: 18px;
     align-items: center;
+    max-width: 60%;
 }
 .section-3-quote {
     font-size: 24px;
@@ -142,19 +147,18 @@ header  {
     font-size: 18px;
     font-weight: bold;
     align-self: flex-end;
-    margin-right: 120px;
 }/*Section 3 Finish Here // Section 4 Start Here*/ /*Section 3 Finish Here // Section 4 Start Here*/
 .section-4  {
     background-color: #f9faf8;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 180px;
+    min-height: 280px;
     padding: 0px 15px;
 }
 .section-4-blue-container   {
+    flex-grow: 1;
     background-color: #3882f6;
-    max-width: 90%;
     color:#f9faf8;
     border-radius: 10px;
     min-height: 102px;
@@ -162,23 +166,26 @@ header  {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.section-4-blue-container-left-side {
+    max-width: 75%;
 
 }
 .section-4-blue-container-title {
     font-size: 24px;
     font-weight: bold;
+    margin-bottom: 24px;
 }
 .section-4-blue-container-p     {
     font-weight: 18px;
-    max-width: 70%;
+
 }
 .section-4-blue-container-contact-button    {
-    padding: 6px 14px;
+    padding: 12px 24px;
     border: 1px solid #f9faf8;
     border-radius: 5px;
     color: #f9faf8;
+    margin-left: auto;
+
+
 }/*Section 4 Finish Here // Section 5 Start Here*/ /*Section 4 Finish Here // Footer Start Here*/
 footer  {
     background-color: #1f2937;
