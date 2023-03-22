@@ -38,6 +38,42 @@ header  {
 }
 .right-menu {
     display: flex;
-    justify-content: space-evenly;
-    min-width: 50%;
+    justify-content: center;
+} /*Header Finish Here*/ /*Section 1 Start here*/ /*Header Finish Here*/ /*Section 1 Start here*/
+.section-1  {
+    padding: 0 10px;
+    min-height: 320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color:  #1f2937;
 }
+.section-1-left-container   {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    padding: 10px;
+    min-width: 30%;
+}
+
+.section-1-left-container > h1  {
+    color: #f9faf8;
+    font-size: 48px;
+}
+.section-1-left-container > a  {
+    color: #f9faf8;
+    padding: 10px 5px;
+    background-color: #3882f6;
+    width: 160px;
+    text-align: center;
+}
+.section-1-left-container > p   {
+    color: #e5e7eb;
+}
+.section-1-right-image  {
+    object-fit: contain;
+    overflow: hidden;
+    padding: 10px 10px 20px 10px;
+} /*Section 1 Finish Here *//* Section 2 Start Here*/ /*Section 1 Finish Here *//* Section 2 Start Here*/
