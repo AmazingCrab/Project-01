@@ -56,6 +56,7 @@ header  {
     gap: 16px;
     padding: 10px;
     min-width: 30%;
+
 }
 
 .section-1-left-container > h1  {
@@ -68,12 +69,51 @@ header  {
     background-color: #3882f6;
     width: 160px;
     text-align: center;
+    font-size: 18px;
 }
 .section-1-left-container > p   {
     color: #e5e7eb;
+    font-size: 18px;
 }
 .section-1-right-image  {
-    object-fit: contain;
     overflow: hidden;
     padding: 10px 10px 20px 10px;
 } /*Section 1 Finish Here *//* Section 2 Start Here*/ /*Section 1 Finish Here *//* Section 2 Start Here*/
+.section-2  {
+    background-color: #f9faf8;
+    color: #1f2937;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: center;
+    padding: 28px 0;
+}
+.section-2-h2   {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0 0 18px 0 ;
+}
+.section-2-image-big-container  {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.image-container    {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    text-align: center;
+}
+.image-container > img  {
+    width: 200px;
+    height: 200px;
+}
+.image-container > p    {
+    width: 200px;
+}
