@@ -27,7 +27,6 @@ header  {
     font-size: 24px;
     font-weight: bold;
     color: #f9faf8;
-
 }
 .menu-button:link , .menu-button:visited    {
     font-size: 18px;
@@ -75,6 +74,7 @@ header  {
     width: 160px;
     text-align: center;
     font-size: 18px;
+    border-radius: 7px;
 }
 .section-1-left-container > p   {
     color: #e5e7eb;
@@ -84,6 +84,7 @@ header  {
     overflow: hidden;
     padding: 10px 10px 20px 10px;
     max-width: 350px;
+    border-radius: 37px;
 } /*Section 1 Finish Here *//* Section 2 Start Here*/ /*Section 1 Finish Here *//* Section 2 Start Here*/
 .section-2  {
     background-color: #f9faf8;
@@ -113,12 +114,14 @@ header  {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 18px;
+    gap: 6px;
     text-align: center;
 }
 .image-container > img  {
     width: 200px;
     height: 200px;
+    border:solid #3882f6;
+    border-radius: 17px 17px 14px 14px;
 }
 .image-container > p    {
     width: 200px;
