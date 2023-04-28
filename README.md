@@ -1,1 +1,1 @@
-This is a Project with CSS without JQuery 
+This is a Project with CSS witHOUT JQuery 
